@@ -37,6 +37,8 @@
     ]
   },
   "devDependencies": {
-    "@wojtekmaj/enzyme-adapter-react-17": "^0.4.1"
+    "@testing-library/react-hooks": "^3.7.0",
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.4.1",
+    "enzyme-to-json": "^3.6.1"
   }
 }

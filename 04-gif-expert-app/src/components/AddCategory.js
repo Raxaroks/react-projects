@@ -7,6 +7,7 @@ const AddCategory = ( { setCategories } ) => {
 
     const handleInputChange = (evt) => {
         setInputValue(evt.target.value);
+        // console.log('handleInputChange invoked!!!');
     }
 
     const handleSubmit = (evt) => {
@@ -14,12 +15,14 @@ const AddCategory = ( { setCategories } ) => {
 
         if ( inputValue.trim().length > 2 ) {
             setCategories( cats => [inputValue, ...cats] );
+            setInputValue('');
         }
-
+        // console.log('handleSubmit invoked!!!');
     }
 
     return (
         <form onSubmit={ handleSubmit }>
+            <p>{inputValue}</p>
             <input
                 type='text'
                 placeholder='Escribe...' 
