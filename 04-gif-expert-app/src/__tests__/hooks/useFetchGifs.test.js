@@ -24,7 +24,5 @@ describe('Pruebas en el hook useFetchGifs', () => {
         expect(data.length).toBe(10);
         expect(loading).toBe(false);        
     })
-    
-    
 
 })
