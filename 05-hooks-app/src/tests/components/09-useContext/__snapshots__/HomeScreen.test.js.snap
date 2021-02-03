@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el componente: HomeScreen Debe de renderizarse correctamente. 1`] = `
+<div>
+  <h1>
+    HomeScreen: Página de inicio
+  </h1>
+   
+  <hr />
+  <pre>
+    {
+   "name": "Andrés",
+   "mail": "andres@enchingue.com"
+}
+  </pre>
+</div>
+`;

@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el componente: RealRefExample Debe de renderizarse correctamente. 1`] = `
+<div>
+  <h1>
+    <strong>
+      RealRefExample
+    </strong>
+  </h1>
+   
+  <hr />
+  <button
+    className="btn btn-primary mt-4"
+    onClick={[Function]}
+  >
+    Show/Hide
+  </button>
+</div>
+`;

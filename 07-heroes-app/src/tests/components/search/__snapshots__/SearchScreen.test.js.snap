@@ -1,0 +1,214 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el componente: SearchScreen Debe de mostrar un error si no se encuentra el héroe en la búsqueda. 1`] = `
+<div>
+  <h1>
+    Search Screen
+  </h1>
+   
+  <hr />
+  <div
+    className="row"
+  >
+    <div
+      className="col-5"
+    >
+      <h4>
+        Search Form
+      </h4>
+      <hr />
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          autoComplete="off"
+          className="form-control"
+          name="searchInput"
+          onChange={[Function]}
+          placeholder="Find your hero"
+          type="text"
+          value="batman12345"
+        />
+        <button
+          className="btn m-1 btn-block btn-outline-primary"
+          type="submit"
+        >
+          Search...
+        </button>
+      </form>
+    </div>
+    <div
+      className="col-7"
+    >
+      <h4>
+        Results
+      </h4>
+      <hr />
+      <div
+        className="alert alert-danger"
+      >
+        There is no hero with 
+        batman12345
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Pruebas en el componente: SearchScreen Debe de mostrarse a Batman y el input del valor del QueryString de la búsqueda. 1`] = `
+<div>
+  <h1>
+    Search Screen
+  </h1>
+   
+  <hr />
+  <div
+    className="row"
+  >
+    <div
+      className="col-5"
+    >
+      <h4>
+        Search Form
+      </h4>
+      <hr />
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          autoComplete="off"
+          className="form-control"
+          name="searchInput"
+          onChange={[Function]}
+          placeholder="Find your hero"
+          type="text"
+          value="batman"
+        />
+        <button
+          className="btn m-1 btn-block btn-outline-primary"
+          type="submit"
+        >
+          Search...
+        </button>
+      </form>
+    </div>
+    <div
+      className="col-7"
+    >
+      <h4>
+        Results
+      </h4>
+      <hr />
+      <div
+        className="card ms-3"
+        sytle={
+          Object {
+            "maxWidth": 540,
+          }
+        }
+      >
+        <div
+          className="row no-gutters"
+        >
+          <div
+            className="col-md-4"
+          >
+            <img
+              alt="Batman"
+              className="card-img"
+              src="./assets/heroes/dc-batman.jpg"
+            />
+          </div>
+          <div
+            className="col-md-8"
+          >
+            <div
+              className="card-body"
+            >
+              <h5
+                className="card-title"
+              >
+                Batman
+              </h5>
+              <p
+                className="card-text"
+              >
+                Bruce Wayne
+              </p>
+              <p
+                className="card-text"
+              >
+                <small
+                  className="text-muted"
+                >
+                  Detective Comics #27
+                </small>
+              </p>
+              <a
+                href="/hero/dc-batman"
+                onClick={[Function]}
+              >
+                Más...
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Pruebas en el componente: SearchScreen Debe de renderizarse correctamente con sus valores por defecto. 1`] = `
+<div>
+  <h1>
+    Search Screen
+  </h1>
+   
+  <hr />
+  <div
+    className="row"
+  >
+    <div
+      className="col-5"
+    >
+      <h4>
+        Search Form
+      </h4>
+      <hr />
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          autoComplete="off"
+          className="form-control"
+          name="searchInput"
+          onChange={[Function]}
+          placeholder="Find your hero"
+          type="text"
+          value=""
+        />
+        <button
+          className="btn m-1 btn-block btn-outline-primary"
+          type="submit"
+        >
+          Search...
+        </button>
+      </form>
+    </div>
+    <div
+      className="col-7"
+    >
+      <h4>
+        Results
+      </h4>
+      <hr />
+      <div
+        className="alert alert-info"
+      >
+        Search for a hero
+      </div>
+    </div>
+  </div>
+</div>
+`;
