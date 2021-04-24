@@ -1,8 +1,9 @@
 import React, { useReducer, useEffect} from 'react';
-import './styles.css';
 import TodoAdd from './TodoAdd';
 import TodoList from './TodoList';
 import { todoReducer } from './todoReducer';
+import './styles.css';
+
 
 const init = () => {
     return JSON.parse(localStorage.getItem('todos')) || [];

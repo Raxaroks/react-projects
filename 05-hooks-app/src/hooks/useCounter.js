@@ -1,7 +1,7 @@
 //  Recuerda: un custom hook no es más que una simple función
 import { useState } from 'react';
 
-export const useCounter = (initialState = 0) => {
+export const useCounter = (initialState = 10) => {
     const [counter, setCounter] = useState(initialState);
 
     const increment = () => {

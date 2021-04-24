@@ -41,8 +41,6 @@ const DashboardRoutes = () => {
 
                     <Redirect to="/marvel"/>
                 </Switch>
-
-
             </div>
         </>
     )
